@@ -6,7 +6,7 @@
 @AbapCatalog.viewEnhancementCategory: [#PROJECTION_LIST,#UNION]
 @Analytics.dataCategory: #CUBE
 //made it as cube to create ALP 
-//new line code 
+//new line code 2
 
 define root view entity YI_UX as select from ytrap_uxteam_t {
 key id as Id,
@@ -25,3 +25,4 @@ last_changed_at as LastChangedAt,
 @Semantics.systemDateTime.localInstanceLastChangedAt: true
 local_last_changed_at as LocalLastChangedAt
 }
+
