@@ -6,7 +6,7 @@
 @AbapCatalog.viewEnhancementCategory: [#PROJECTION_LIST,#UNION]
 @Analytics.dataCategory: #CUBE
 //made it as cube to create ALP 
-//new line code - 2026 0412 
+//new line code - 2026 0412 v1 v2
 
 define root view entity YI_UX as select from ytrap_uxteam_t {
 key id as Id,
